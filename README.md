@@ -8,6 +8,7 @@ Possibilitat d'executar el codi mitjançant bash script: ./aqueducte.sh < arxiu 
 I mitjançant codi python v.3: python3 aqueducte.py < arxiu >
 
 
+# CODI
 ## FUNCIÓ QUE LLEGEIX L'ARXIU PASSAT COM A PARÀMETRE 
 ## readfile()
 Transforma els espais del fitxer en posicions de nombres de 2 en 2 de la llista 'variables'.\
