@@ -4,8 +4,8 @@ aqueducte.py --> Aqüeductes a cada punt.\
 aqueducte-ap.py --> Pont del primer a l'últim punt.
 
 # ÚS
-Possibilitat d'executar el codi mitjançant bash script: ./aqueducte.sh <arxiu>\
-I mitjançant codi python v.3: python3 aqueducte.py <arxiu>
+Possibilitat d'executar el codi mitjançant bash script: ./aqueducte.sh < arxiu >\
+I mitjançant codi python v.3: python3 aqueducte.py < arxiu >
 
 
 ## FUNCIÓ QUE LLEGEIX L'ARXIU PASSAT COM A PARÀMETRE 
