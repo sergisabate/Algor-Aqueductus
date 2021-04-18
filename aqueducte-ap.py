@@ -2,6 +2,7 @@ import sys
 import math
 
 
+# FUNCIO QUE LLEGEIX L'ARXIU PASSAT COM A PARAMETRE
 def readfile():
     filename = sys.argv[1]
     variables = []
@@ -16,11 +17,13 @@ def readfile():
     return variables[0]
 
 
+# FUNCIO QUE PRINTA "impossible" I SURT DEL PROGRAMA
 def impossible():
     print("impossible")
     exit()
 
 
+# FUNCIO QUE COMPROVA UN POSSIBLE PONT O AQUEDUCTE NO VÀLID
 def wrong_cases():
     if radius > h:
         impossible()
@@ -31,6 +34,7 @@ def wrong_cases():
         i += 1
 
 
+# FUNCIO QUE CALCULA EL COST MITJANÇANT LA FORMULA PROPOSADA
 def cost(n, h, alpha, beta, points):
     print(int(alpha * sum_heights + beta * (dist_x ** 2)))
 
