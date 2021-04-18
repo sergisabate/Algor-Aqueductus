@@ -47,3 +47,6 @@ Es comprova que el punt sigui vàlid.\
 Quan només quedin dos punts es sumarà al total els dos pilars + la seva distància al quadrat.\
 En cada "iteració" recursiva, es suma l'alçada del primer pilar i la distancia amb el següent.\
 En cada "iteració" recursiva, es passa la llista sense el punt ja tractat i el cost acumulat.
+
+Github repository:
+https://github.com/sergisabate/Algor-Aqueductus
