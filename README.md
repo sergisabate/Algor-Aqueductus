@@ -1,19 +1,17 @@
 # FUNCIONALITAT
-Aquest codi consisteix en mitjançant l'introducció d'un arxiu en .in, aquest comprovarà la possibilitat de generar un pont/aqüeducte entre els punts cardinals de l'arxiu i calcularà un cost possible mitjançant la eqüació de la pràctica.
-aqueducte.py --> Aqüeductes a cada punt.
+Aquest codi consisteix en mitjançant l'introducció d'un arxiu en .in, aquest comprovarà la possibilitat de generar un pont/aqüeducte entre els punts cardinals de l'arxiu i calcularà un cost possible mitjançant la eqüació de la pràctica.\
+aqueducte.py --> Aqüeductes a cada punt.\
 aqueducte-ap.py --> Pont del primer a l'últim punt.
 
 # ÚS
-Possibilitat d'executar el codi mitjançant bash script: ./aqueducte.sh <arxiu>
+Possibilitat d'executar el codi mitjançant bash script: ./aqueducte.sh <arxiu>\
 I mitjançant codi python v.3: python3 aqueducte.py <arxiu>
-
-
 
 
 ## FUNCIÓ QUE LLEGEIX L'ARXIU PASSAT COM A PARÀMETRE 
 ## readfile()
-Transforma els espais del fitxer en posicions de nombres de 2 en 2 de la llista 'variables'.
-Després, trasllada les variables de punts a la llista 'points'.
+Transforma els espais del fitxer en posicions de nombres de 2 en 2 de la llista 'variables'.\
+Després, trasllada les variables de punts a la llista 'points'.\
 I finalment, prepara el return perquè retorni el nombre de punts, l'alçada, cost alpha, cost beta i la llista dels punts.
 
 
