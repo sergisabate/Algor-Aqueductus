@@ -24,7 +24,7 @@ def cost(height, x):\
     return alpha * height + beta * x
 
 
-# FUNCIO PRINCIPAL QUE COMPROVA TOT L'ANTERIOR DE FORMA RECURSIVA FINS QUE ARRIBA A L'ULTIM PUNT
+# FUNCIÓ PRINCIPAL QUE COMPROVA TOT L'ANTERIOR DE FORMA RECURSIVA FINS QUE ARRIBA A L'ULTIM PUNT
 # recursive()
 Es calcula la distància en l'eix X entre els dos punts.\
 Es calcula el radi sent aquest la meitat de la distància X.\
