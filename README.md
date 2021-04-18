@@ -1,4 +1,5 @@
-# FUNCIÓ QUE LLEGEIX L'ARXIU PASSAT COM A PARÀMETRE readfile()
+# FUNCIÓ QUE LLEGEIX L'ARXIU PASSAT COM A PARÀMETRE 
+# readfile()
 Transforma els espais del fitxer en posicions de nombres de 2 en 2 de la llista 'variables'.\
 Després, trasllada les variables de punts a la llista 'points'.\
 I finalment, prepara el return perquè retorni el nombre de punts, l'alçada, cost alpha, cost beta i la llista dels punts.
