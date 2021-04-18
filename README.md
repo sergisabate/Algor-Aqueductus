@@ -5,23 +5,27 @@ Després, trasllada les variables de punts a la llista 'points'.\
 I finalment, prepara el return perquè retorni el nombre de punts, l'alçada, cost alpha, cost beta i la llista dels punts.
 
 
-# FUNCIÓ QUE PRINTA "impossible" I SURT DEL PROGRAMA --> impossible()
+# FUNCIÓ QUE PRINTA "impossible" I SURT DEL PROGRAMA 
+# impossible()
 def impossible():\
     print("impossible")\
     exit()
 
 
-# FUNCIÓ QUE COMPROVA UN POSSIBLE PONT O AQÜEDUCTE NO VÀLID --> wrong_cases()
+# FUNCIÓ QUE COMPROVA UN POSSIBLE PONT O AQÜEDUCTE NO VÀLID 
+# wrong_cases()
 Si un radi de l'arc fos major que l'alçada requerida, seria impossible generar un arc vàlid.\
 Si un punt per sobre del centre de l'arc estigues fora del seu radi, voldrà dir que el pont xocaria contra el terreny considerant-ho no vàlid.
 
 
-# FUNCIÓ QUE CALCULA EL COST MITJANÇANT LA FORMULA PROPOSADA --> cost()
+# FUNCIÓ QUE CALCULA EL COST MITJANÇANT LA FORMULA PROPOSADA
+# cost()
 def cost(height, x):\
     return alpha * height + beta * x
 
 
-# FUNCIO PRINCIPAL QUE COMPROVA TOT L'ANTERIOR DE FORMA RECURSIVA FINS QUE ARRIBA A L'ULTIM PUNT --> recursive()
+# FUNCIO PRINCIPAL QUE COMPROVA TOT L'ANTERIOR DE FORMA RECURSIVA FINS QUE ARRIBA A L'ULTIM PUNT
+# recursive()
 Es calcula la distància en l'eix X entre els dos punts.\
 Es calcula el radi sent aquest la meitat de la distància X.\
 Es calcula el centre de l'arc:
