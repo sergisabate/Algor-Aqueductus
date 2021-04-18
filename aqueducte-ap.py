@@ -35,20 +35,19 @@ def wrong_cases():
 
 
 # FUNCIO QUE CALCULA EL COST MITJANÇANT LA FORMULA PROPOSADA
-def cost(n, h, alpha, beta, points):
+def cost():
     print(int(alpha * sum_heights + beta * (dist_x ** 2)))
 
 
-n, h, alpha, beta, points = readfile()
-
-dist_x = points[-1][0] - points[0][0]
-radius = dist_x / 2
-center = h - radius
-span_point = [radius + points[0][0], center]
-midpoints = points[1:-1]
-sum_heights = h * 2 - (points[0][1] + points[-1][1])
-
-wrong_cases()
-
-cost(n, h, alpha, beta, points)
+# FUNCIO PRINCIPAL ITERATIVA
+if __name__ == "__main__":
+    n, h, alpha, beta, points = readfile()
+    dist_x = points[-1][0] - points[0][0]
+    radius = dist_x / 2
+    center = h - radius
+    span_point = [radius + points[0][0], center]
+    midpoints = points[1:-1]
+    sum_heights = h * 2 - (points[0][1] + points[-1][1])
+    wrong_cases()
+    cost()
 

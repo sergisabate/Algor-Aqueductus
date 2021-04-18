@@ -51,6 +51,9 @@ def recursive(points_rec, sum_costs):
     return recursive(points_rec[1:], total_cost)
 
 
+# Recolliment de variables
 n, h, alpha, beta, points = readfile()
+# Segons la llargaria de "points" fa augmentar el limit de recursio (inicial:1000)
 sys.setrecursionlimit(len(points) + 100)
+# S'escriu directament el resultat
 print(recursive(points, [0, 0]))
